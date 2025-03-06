@@ -2,9 +2,9 @@
 int main()
 {
 	int a,b,c;
-	printf("Enter a,b values: ");
+	printf("Enter a and b: ");
 	scanf("%d%d",&a,&b);
-	c=(a+b)*(a+b);
-	printf("%d\n",c);
+	c=a*a+b*b+2*a*b;
+	printf("%d",c);
 	return 1;
 }
